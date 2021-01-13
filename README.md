@@ -29,7 +29,7 @@ The term “fixed effects” is due to the fact that, although the intercept may
 
 # RUNNING THE CODE IN R
 
-A) Pooled OLS results
+# A) Pooled OLS results
 
 Call:
 lm(formula = LWAGE ~ ED, data = PSID)
@@ -49,7 +49,7 @@ Residual standard error: 0.4243 on 4163 degrees of freedom
 Multiple R-squared:  0.1552,	Adjusted R-squared:  0.155 
 F-statistic: 764.5 on 1 and 4163 DF,  p-value: < 2.2e-16
 
-B) Fixed effcets Least Squares Dummy Variables(Two way)
+# B) Fixed effcets Least Squares Dummy Variables(Two way)
 
 Call:
 lm(formula = LWAGE ~ ED + ID - 1, data = PSID)
