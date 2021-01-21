@@ -17,7 +17,9 @@ library(ggplot2)
 library(AER)
 
 # 1) ExpLORATORY DATA ANALYSIS
-# a) Structure of the Daa
+PSID = read.csv("../input/panel-data/cornwellrupert1988_rev.csv")
+
+# a) Structure of the Data
 str(PSID)
 
 # Convert female(Gender) varaible to a factor object: 1= female and 0 is Male
